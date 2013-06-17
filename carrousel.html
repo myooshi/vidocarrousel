@@ -1,0 +1,31 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/carruselVideo.css">
+	<script src="js/TweenMax.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/carruselVideo.js">
+	</script>
+
+</head>
+<body onload="init()">
+	<div id="contenedorGaleria" class="contenedorGaleria">
+		
+		<button id="videoAnterior" class="botonIzquierdo" onclick="videoAnterior()"></button>
+
+		<video id="video1" controls class="video" style="z-index:1000"> 
+			 <source src="videos/Video-Valores.mp4" type="video/mp4">
+  			 <source src="videos/Video-Valores.ogg" type="video/ogg">
+  			 Su explorador no soporta estos videos.
+			</video>
+
+		<video id="video2" controls class="video" style="z-index:500">
+			<source src="videos/Video-Tutorial.mp4" type="video/mp4">
+  			 <source src="videos/Video-Tutorial.ogg" type="video/ogg">
+  			 Su explorador no soporta estos videos.
+			 </video>
+		
+		<button id="videoSiguiente"  class="botonDerecho" onclick="videoSiguiente()"></button>
+	</div>
+
+</body>
+
+</html>

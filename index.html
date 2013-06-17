@@ -1,0 +1,1384 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Movistar Empresas :: Fusión</title>
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/colorbox.css" rel="stylesheet" type="text/css" />
+	<link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+	<link href="css/pagescroller.skins.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+	<script type="text/javascript" src="js/ms.js"></script>
+</head>
+<body>
+
+	<div id="wrapperIframe">
+     
+		<!-- MENU -->        
+		<div id="menu" class="pageScrollerNav topNav light">
+			<ul>
+				<li><a class="active" id="secc1">INICIO</a></li>
+				<li><a id="secc2">ASISTENTE</a></li>
+				<li><a id="secc3">CONDICIONES LEGALES Y DESCARGAS</a></li>           
+			</ul> 
+			<!--<a href="http://www.suopinionesnuestrocompromiso.com" class="menuExterno"  target="_blank" >AYUDA ONLINE</a>-->
+			<!--<a href="http://www.movistar.es/mimovistar/empresas/factura/facturas_emitidas" onclick="javascript:traquearAccesoFusion();" class="menuAccesoFusion"  target="_parent" >ACCEDA A SU ÁREA PRIVADA</a>-->
+			<a href="javascript:;" class="menuAccesoFusion" target="_parent">ACCEDA A SU ÁREA PRIVADA</a>
+		</div>
+		<!-- FIN. MENU -->
+            
+            
+        <div id="contenedorSecciones">
+        
+			<!-- SECCION INICIO -->
+			<div id="inicio" class="section">
+	
+				<div class="titleContent">
+					<h1>Bienvenido al Asistente de Movistar <br />
+					Fusión Empresas</h1>
+				</div>
+				
+				<div class="noTeDecides">
+					<a href="/Aplicaciones/formulario-fusion-empresas/?carrito=ko" onclick="traquearPanelInfo('inicio')"><img src="images/bt_quierecontacto.jpg" alt="¿Quiere que contactemos con usted?" /></a>
+				</div>
+
+				<!-- CARRUSEL DE VIDEO -->
+
+				<link rel="stylesheet" type="text/css" href="css/carruselVideo.css">
+				<script src="js/TweenMax.min.js" type="text/javascript"></script>
+				<script type="text/javascript" src="js/carruselVideo.js">
+				</script>
+				<div id="contenedorGaleria" class="contenedorGaleria">
+					
+					<button id="videoAnterior" class="botonIzquierdo" onclick="videoAnterior()"></button>
+
+					<video id="video1" controls class="video" style="z-index:1000"> 
+						 <source src="images/Video-Valores.mp4" type="video/mp4">
+			  			 <source src="images/Video-Valores.ogg" type="video/ogg">
+			  			 Su explorador no soporta estos videos.
+						</video>
+
+					<video id="video2" controls class="video" style="z-index:500; width:240px; height:180px; left:100px; top:20px">
+						<source src="images/Video-Tutorial.mp4" type="video/mp4">
+			  			 <source src="images/Video-Tutorial.ogg" type="video/ogg">
+			  			 Su explorador no soporta estos videos.
+						 </video>
+					
+					<button id="videoSiguiente"  class="botonDerecho" onclick="videoSiguiente()"></button>
+				</div>
+
+
+				<!-- FIN CARRUSEL DE VIDEO -->
+						  
+				<div class="clear-both"></div>  
+				
+			  	<div class="subtitleContent">
+					<h3>Elija lo que necesita para su negocio en unos sencillos pasos, empezando por la Conectividad.</h3>
+					<br />
+					<a  href="javascript:()" id="iniciarAsistente"><img src="images/bt_iniciar-asistente.png" alt="Iniciar el Asistente" /></a>
+				</div>
+				
+				<div class="clear-both"></div>
+				
+				<div class="infoGrafico">
+					<img src="images/infografia_movistarfusion.png" alt="Iniciar el Asistente" border="0" usemap="#Map" />
+					<map name="Map" id="Map">
+					  <area shape="poly" coords="83,370,90,311,105,257,124,214,151,170,188,127,234,88,268,66,309,46,362,29,404,22,428,20,428,88,366,98,313,119,267,147,226,184,178,255,166,285,153,338,150,370" href="javascript:()" />
+					  <area shape="poly" coords="165,382,169,333,179,292,198,249,221,214,250,179,285,151,330,125,381,108,419,101,442,99,456,100,485,102,523,110,570,129,611,152,642,179,671,210,691,240,705,266,717,299,726,339,730,382" href="javascript:()" />
+					  <area shape="poly" coords="465,20,516,26,566,40,622,64,657,86,692,115,739,167,763,205,783,244,799,294,806,329,810,371,740,371,733,319,714,261,689,216,649,168,613,139,561,111,524,99,486,90,465,88" href="javascript:()" />
+					</map>
+			  	</div>
+				
+			</div>
+			<!-- FIN. SECCION INICIO -->
+        
+        	<!-- SECCION ASISTENTE -->
+       		<div id="asistente" class="section">
+			
+				<!-- MENU PASOS ASISTENTE -->
+				<div class="menuPasos conectividad"><img src="images/bg_menuPasos_transparent.png" width="899" height="36" border="0" usemap="#Map2">
+				  <map name="Map2" id="Map2">
+					<area shape="rect" coords="3,3,151,35" href="javascript:;" id="pasoConectividad">
+					<area shape="rect" coords="168,3,298,34" href="javascript:;" id="pasoRedlocal">
+					<area shape="rect" coords="312,3,447,35" href="javascript:;" id="pasoPfijo">
+					<area shape="rect" coords="467,4,587,35" href="javascript:;" id="pasoPmovil">
+					<area shape="rect" coords="608,4,750,34" href="javascript:;" id="pasoPinformatico">
+					<area shape="rect" coords="763,3,898,35" href="javascript:;" id="pasoServiciosA">
+				  </map>
+				</div>
+				<!-- FIN. MENU PASOS ASISTENTE -->
+            
+            	<div class="clear-both"></div>
+            
+            	<div class="columnLeft">
+                
+                	<div class="carrito">
+                    	<div class="title"><h3>Su configuración</h3></div>
+                        <div class="contenidoCarrito">
+                        	<ul class="productosPrincipales">
+                            	<li>Oficinas <img src="images/masinfo-lbox.png" class="masInfoOficinas"/> <span class="cantidad" id="cantidadOficinas">0</span> <img src="images/info-carrito_oficinas.png" class="info-oficinas"  /></li>
+                                <li>Empleados <img src="images/masinfo-lbox.png"  class="masInfoEmpleados"/> <span class="cantidad" id="cantidadEmpleados">0</span> <img src="images/info-carrito_empleados.png"  class="info-empleados"  /></li>
+                            </ul>
+                            <ul class="productosGenericos">                        
+                                <li id="liRedes">Redes<a href="#del" class="borrar" id="eliRedes"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadRedes">0</span></li>
+                                <li id="liOperadora">Operadora automática<a href="#del" class="borrar" id="eliOperadora"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad">1</span></li>
+                                <li id="liPuestosFijos">Puestos fijos<a href="#del" class="borrar" id="eliPuestosFijos"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadPuestosFijos">0</span><div class="botonPlegar"><img src="images/flecha_plegar.png" /></div>
+                                	<ul class="productosPFijos">
+                                    	<li id="liPaqueteBasicoFijo">Terminal básico<!--<a href="#del" class="borrar" id="eliPaqueteBasico" class="borrar"><img src="images/boton-eliminar_producto.png" /></a>--><span class="cantidad" id="cantidadPaqueteBasicoFijo">0</span></li>                                    
+                                    	<li id="liOpenStage40">OpenStage 40<a href="#del" class="borrar" id="eliOpenStage40"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadOpenStage40">0</span></li>
+                                    	<li id="liOpenStage60">OpenStage 60<a href="#del" class="borrar" id="eliOpenStage60"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadOpenStage60">0</span></li>
+                                    	<li id="liBaseEstandar">Base estándar<a href="#del" class="borrar" id="eliBaseEstandar"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadBaseEstandar">0</span></li>
+                                    	<li id="liIndustrial">Industrial<a href="#del" class="borrar" id="eliIndustrial"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadIndustrial">0</span></li>
+                                    	<li id="liAntiexplosion">Antiexplosión<a href="#del" class="borrar" id="eliAntiexplosion"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadAntiexplosion">0</span></li>
+                                    </ul>
+                                </li>
+                                <!--<li id="liPuestosFijos">Puestos fijos<a href="#del" class="borrar" id="eliPuestosFijos" class="borrar"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadPuestosFijos">0</span></li>-->
+                                <li id="liPuestosMoviles">Puestos móviles<a href="#del" class="borrar" id="eliPuestosMoviles"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadPuestosMoviles">0</span><div class="botonPlegar"><img src="images/flecha_plegar.png" /></div>
+                                	<ul class="productosPMoviles">
+                                    	<li id="liPaqueteBasico">Smartphone básico<!--<a href="#del" class="borrar" id="eliPaqueteBasico" class="borrar"><img src="images/boton-eliminar_producto.png" /></a>--><span class="cantidad" id="cantidadPaqueteBasico">0</span></li>
+                                        <li id="liIphone5">Iphone 5<a href="#del" class="borrar" id="eliIphone5"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadIphone5">0</span></li>
+                                        <li id="liSamsungS3">Samsung Galaxy SIII<a href="#del" class="borrar" id="eliSamsungS3"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadSamsungS3">0</span></li>
+                                        <li id="liNokia610">Nokia 610<a href="#del" class="borrar" id="eliNokia610"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadNokia610">0</span></li>
+                                        <li id="liSamsungAce2">Samsung Galaxy Ace II<a href="#del" class="borrar" id="eliSamsungAce2"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadSamsungAce2">0</span></li>
+                                        <li id="liBB9320">Blackberry 9320<a href="#del" class="borrar" id="eliBB9320"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadBB9320">0</span></li>
+                                        <li id="liSonyXU">Sony Xperia U<a href="#del" class="borrar" id="eliSonyXU"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadSonyXU">0</span></li>
+                                        <li id="liSamsungG2mini">Samsung Galaxy II mini<a href="#del" class="borrar" id="eliSamsungG2mini"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadSamsungG2mini">0</span></li>
+                                    </ul>
+                                </li>
+                                <li id="liPuestosInformaticos">Puestos informáticos<a href="#del" class="borrar" id="eliPuestosInformaticos"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadPuestosInformaticos">0</span><div class="botonPlegar"><img src="images/flecha_plegar.png" /></div>                                
+                                <!--<li id="liPuestosInformaticos">Puestos informáticos<a href="#del" class="borrar" id="eliPuestosInformaticos" class="borrar"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadPuestosInformaticos">0</span></li>-->
+                                    <ul class="productosPInformaticos">
+                                    	<li id="liPaqueteBasicoInformatico">PC básico<!--<a href="#del" class="borrar" id="eliPaqueteBasico" class="borrar"><img src="images/boton-eliminar_producto.png" /></a>--><span class="cantidad" id="cantidadPaqueteBasicoInformatico">0</span></li>
+										<li id="liPcPortatil">PC portátil<a href="#del" class="borrar" id="eliPcPortatil"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadPcPortatil">0</span></li>
+										<li id="liUltrabook">Ultrabook<a href="#del" class="borrar" id="eliUltrabook"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadUltrabook">0</span></li>
+										<li id="liIpad">iPad<a href="#del" class="borrar" id="eliIpad"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadIpad">0</span></li>
+										<li id="liSamsung">Samsung Tablet<a href="#del" class="borrar" id="eliSamsung"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadSamsung">0</span></li>
+                                    </ul>
+								</li>
+                             </ul>
+                            <div class="contenidoProductosExtras">
+                                <div class="title">Extras <div class="botonPlegar"><img src="images/flecha_plegar.png" /></div></div>
+                                <ul class="productosExtras">
+									<li id="liRespaldoMovil">Respaldo Móvil<a href="#del" class="borrar" id="eliRespaldoMovil"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadRespaldoMovil">1</span></li>
+									<li id="liComunicacionesUnificadas">Comunic. Unificadas<a href="#del" class="borrar" id="eliComunicacionesUnificadas"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadComunicacionesUnificadas">1</span></li>
+									<li id="liComunicacionesUnificadasFijoMovil">Comunic. Unif. fijo en móvil<a href="#del" class="borrar" id="eliComunicacionesUnificadasFijoMovil"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad" id="cantidadComunicacionesUnificadasFijoMovil">1</span></li>
+									<!--<li>Tarifa Plus<a href="#" class="borrar"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad">1</span></li>
+									<li>Terminal<a href="#" class="borrar"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad">23</span></li>-->
+                                </ul>
+                            </div>
+                            <div class="contenidoServiciosAdicionales">
+                                <div class="title">Servicios Adicionales</div>
+                                <ul class="productosAdicionales">
+                                    <li id="liHacemosWeb">Hacemos Tu Web<a href="#del" class="borrar" id="eliHacemosWeb"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad">1</span></li>
+                                    <li id="liHacemosTienda">Hacemos Tu Tienda<a href="#del" class="borrar" id="eliHacemosTienda"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad">1</span></li>
+                                    <li id="liDestacoInternet">Te destaco en Internet<a href="#del" class="borrar" id="eliDestacoInternet"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad">1</span></li>
+                                    <li id="liDiscoDuro">Disco Virtual en Red<a href="#del" class="borrar" id="eliDiscoDuro"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad">1</span></li>
+                                    <li id="liIntranet">Intranet Negocios<a href="#del" class="borrar" id="eliIntranet"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad">1</span></li>
+                                    <li id="liOffice">Office 365<a href="#del" class="borrar" id="eliOffice"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad">1</span></li>
+                                    <li id="liAntivirus">Pc Seguro<a href="#del" class="borrar" id="eliAntivirus"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad">1</span></li>
+                                    <!--<li>iPad<a href="#" class="borrar"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad">2</span></li>
+                                	<li>Tarifa Plus<a href="#" class="borrar"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad">1</span></li>
+                                    <li>Terminal<a href="#" class="borrar"><img src="images/boton-eliminar_producto.png" /></a><span class="cantidad">23</span></li>-->
+                                </ul>
+                            </div>                           
+                            <div class="solicitar">
+                                <div class="notificacion">
+                                     Nos pondremos en contacto con usted.
+                                </div>
+                                <div class="boton_solicitar">
+<!--                                <a id="btSolicitar" href="lbox-configuracion.html"><img src="images/bt_solicitar.png" alt="Solicitar" title="Solicitar"  border="0" /></a>-->
+                                	<a id="btSolicitar" href="#solicitar"><img src="images/bt_solicitar.png" alt="Solicitar" title="Solicitar"  border="0" /></a>
+                                </div>
+                           </div>
+                           
+                           	<div class="clear-both"></div>
+                        </div>
+                    </div>
+									
+                    <br />
+
+<!--                <a href="javascript:;" id="pruebaColorbox"><img src="images/bt_notedecides.jpg" alt="¿No te decides?" /></a>-->
+	                <a href="/Aplicaciones/formulario-fusion-empresas/?carrito=ko" id="pruebaColorbox" class="noTeDecides" onclick="traquearPanelInfo('asistente')"><img src="images/bt_notedecides.jpg" alt="¿No se decide?"  align="left"/></a>
+                    
+                </div>
+            
+            	<!-- PASO 1. CONECTIVIDAD -->
+            	<div id="contenidoConectividad" class="columnRight">
+            
+					<div class="tituloPasos">
+						<div class="icon"><img src="images/ico-title_conectividad2.png" /></div>
+						<div class="title"><h3>1. Conectividad</h3></div>
+						<div class="grafico"><img src="images/ico-title_oficinas.jpg" /></div>
+					</div>
+					
+					<div class="subtituloPasos">
+						<h4>¿Por qué necesita una nueva <strong>Conectividad Empresas</strong>?</h4>
+					</div>
+                
+                	<div class="explicacion">
+					
+						<div class="grupo">
+							<div class="titular altura-fija-65">Para tener sus servicios en <strong>la nube</strong>.</div>
+							<div class="desarrollo altura-fija-65 ancho-fijo-400">
+								<ul>
+									<li>Internet hasta 100 Mb y hasta 75 canales de voz digital. </li>
+									<li>Fijos y móviles integrados con llamadas internas nacionales gratuitas.</li>
+									<li>Operadora automática, acceso remoto y disco virtual. </li>
+								</ul>
+							</div>
+						</div>
+						 
+						<div class="clear-both"></div>
+						
+						<div class="grupo">
+							<div class="titular altura-fija-30">Con un <strong>enlace único</strong> de altas prestaciones. </div>
+							<div class="desarrollo altura-fija-30 ancho-fijo-400">
+								<ul>
+									<li>Fibra o ADSL sin congestiones.</li>
+									<li>Calidad de servicio.</li>
+								</ul>
+							</div>
+						</div>
+                    
+                    	<div class="clear-both"></div>
+                    
+                  	 	 <div class="grupo">
+                    	<div class="titular altura-fija-30">Y todas las <strong>garantías</strong>.</div>
+                        <div class="desarrollo altura-fija-30 ancho-fijo-400">
+                        	<ul>
+                            	<li>Gestión remota y análisis de rendimiento.</li> 
+     							<li>Conexión segura y respaldo móvil. </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                	</div>
+                
+                	<div>
+					<form>
+						<div class="tituloAnadir">
+							Para configurar su conectividad ideal indíquenos:
+						</div>
+						<div class="explicacionAnadir">
+							<label for="numeroOficinas">Su número de oficinas</label>
+							<input type="text" id="numeroOficinas" class="soloNumeros" value="0" />
+						</div>
+						 <div class="explicacionAnadir">
+							<label for="numeroEmpleados">Su número de empleados</label>
+							<input type="text" id="numeroEmpleados" class="soloNumeros" value="0" />
+						</div>
+					</form>
+                </div>
+                
+					<div class="cuadroExtras">
+						<div class="tituloExtras">Complete su Conectividad:</div>
+						<div class="elementosExtras">
+							<div class="explicacionSubproducto">Si lo desea, añada el servicio <strong>Respaldo Móvil</strong> a su Conectividad Empresas. Dispondrá de un apoyo 3G con dispositivo independiente que le permitirá mantener la conexión en caso de que falle la habitual.
+							</div>
+							<div class="elementoExtra">
+								<input type="checkbox" id="respaldomovil"  name="comunicacionesUnificadas" />
+								<label for="respaldomovil">Respaldo Móvil</label>
+							</div>
+						</div>
+					</div>
+                
+					<div class="botonesAnadiryContinuar">           	
+						<a href="#addandgo" id="addand1"><img src="images/bt_anadirycontinuar.png" alt="Añadir y continuar" align="right" /></a>
+						<a href="#add" id="add1"><img src="images/bt_anadir.png" alt="Añadir" align="right" /></a>
+						<br />
+						<span class="leyendaBotones">Para terminar, pulse en ‘Solicitar ahora’ dentro de "Su configuración". Para hacer modificaciones, vaya al apartado correspondiente.</span>
+					</div>
+                            
+				</div>
+				<!-- FIN PASO 1. CONECTIVIDAD -->
+            
+				<!-- PASO 2. RED LOCAL -->
+				<div id="contenidoRedlocal" class="columnRight" style="display:none;">
+				
+					<div class="tituloPasos">
+						<div class="icon"><img src="images/ico-title_redlocal.png" /></div>
+						<div class="title"><h3>2.1 Red Local</h3></div>
+						<div class="grafico"><img src="images/ico-title_oficinas.jpg" /></div>
+					</div>
+					
+					<div class="subtituloPasos">
+						<h4>¿Para qué necesita una <strong>Red Local</strong>?</h4>
+					</div>
+					
+					<div class="explicacion">
+						<div class="grupo">
+							<div class="titular altura-fija-50">Para conectar todos los <strong>teléfonos y PCs en una red</strong> única de calidad.</div>
+							<div class="desarrollo altura-fija-50 ancho-fijo-400">
+								<ul>
+									<li>Voz y datos en la misma red, al mejor precio.</li>
+									<li>Gestión y resolución remota de averías.</li>
+								</ul>
+							</div>
+						</div>
+						 
+						<div class="clear-both"></div>
+						
+						<div class="grupo">
+							<div class="titular altura-fija-50">Para garantizar la <strong>interoperabilidad</strong> de todos los servicios.</div>
+							<div class="desarrollo altura-fija-50 ancho-fijo-400">
+								<ul>
+									<li>Sin incompatibilidades.</li>
+									<li>Asesoramiento y garantía de evolución tecnológica. </li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+					
+					<div>
+						<form>
+							<div class="tituloAnadir">
+								Tiene <span class="num_oficinas"></span> oficinas.
+							</div>
+							<div class="explicacionAnadir">
+								<label for="numeroRedes">Su número de redes es</label>
+								<input type="text" id="numeroRedes" class="soloNumeros" value="0" readonly="readonly"/> <span></span>
+							</div>
+						</form>
+					</div>
+					
+					<br />
+	
+					<div class="tituloPasos">
+						<div class="icon"><img src="images/ico-title_operadora.jpg" /></div>
+						<div class="title"><h3>2.2 Operadora Automática</h3></div>                   
+					</div>
+					
+					<div class="subtituloPasos">
+						<h4>¿Para qué necesita una <strong>Operadora Automática</strong>?</h4>
+					</div>
+					
+					<div class="explicacion">
+						<div class="grupo">
+							<div class="titular altura-fija-50">Para disponer de un <strong>teléfono de atención único 24 h</strong>.</div>
+							<div class="desarrollo altura-fija-50 ancho-fijo-400">
+								<ul>
+									<li>Selección de grupo de atención con marcación por teclado.</li>
+									<li>Locuciones personalizadas.</li>
+									<li>Configuración del destino final de cada llamada.</li>
+								</ul>
+							</div>
+						</div>                    
+					</div>
+	
+					<div class="explicacion">
+						<div class="grupo">
+							<div class="titular altura-fija-50">Para reducir el coste de atención.</div>
+							<div class="desarrollo altura-fija-50 ancho-fijo-400">
+								<ul>
+									<li>Soluciona en primera llamada.</li>
+									<li>Disminuye la tasa de llamadas perdidas.</li>
+									<li>ncrementa la disponibilidad del personal.</li>
+								</ul>
+							</div>
+						</div>                    
+					</div>
+	
+					<div>
+						<form>
+							<div class="explicacionAnadir">
+								<input type="checkbox" id="operadoraAutomatica"  name="operadoraAutomatica" />
+								<label for="operadoraAutomatica">Deseo Operadora Automática</label>
+							</div>
+						</form>
+					</div>
+					
+					<div class="botonesAnadiryContinuar">           	
+						<a href="#addandgo" id="addand2"><img src="images/bt_anadirycontinuar.png" alt="Añadir y continuar" align="right" /></a>
+						<a href="#add" id="add2"><img src="images/bt_anadir.png" alt="Añadir" align="right" /></a>
+						<br />
+						<span class="leyendaBotones">Para terminar, pulse en ‘Solicitar ahora’ dentro de "Su configuración". Para hacer modificaciones, vaya al apartado correspondiente.</span>
+					</div>
+				
+				</div>
+				<!-- FIN PASO 2. RED LOCAL -->
+            
+            <!-- PASO 3. P FIJO -->
+            <div id="contenidoPfijo"  class="columnRight" style="display:none;">
+            
+            	<div class="tituloPasos">
+                	<div class="icon"><img src="images/ico-title_pfijo2.png" /></div>
+                    <div class="title"><h3>3. Puesto Fijo</h3></div>
+                    <div class="grafico"><img src="images/ico-title_empleados.jpg" /></div>
+                </div>
+                
+                <div class="subtituloPasos">
+                	<h4>¿Por qué debería tener <strong>Puestos Fijos</strong>?</h4>
+                </div>                
+                
+                <div class="explicacion">
+                	<div class="precios">
+                    	<div>
+                            <h4>Paquete Básico</h4>
+                            <ul>
+								<li>Terminal digital básico</li>
+								<li>Comunicación con fijo:</li>
+								<ul>
+									<li>Centralita en la nube</li>
+									<li>Tarifa plana a fijos nacionales</li>
+									<li>Llamadas internas nacionales</li>
+								</ul>
+                            </ul>
+                        </div>
+                        <img src="images/separacion_precio.jpg" />
+                       <!-- <img src="images/precio_puestofijo.jpg" />-->     
+                    </div>
+                	
+                    <div class="grupos">
+                    
+                        <div class="grupo">
+                            <div class="titular altura-fija-65">Para resolver todas sus <strong>comunicaciones de voz fija</strong>.</div>
+                            <div class="desarrollo altura-fija-65 ancho-fijo-240">
+                                <ul>
+                                    <li>Voz y videollamada digital.</li>
+                                    <li>Tarifa plana en voz fija nacional.</li>
+                                    <li>Llamadas nacionales a móviles internos incluidas.</li>
+                                </ul>
+                            </div>
+                        </div>
+                         
+                        <div class="clear-both"></div>
+                        
+                        <div class="grupo">
+                            <div class="titular altura-fija-50">Con todos los equipos <strong>mantenidos y actualizados</strong>.</div>
+                            <div class="desarrollo altura-fija-50 ancho-fijo-240">
+                                <ul>
+                                    <li>Centralita en la nube.</li>
+                                    <li>Terminales digitales de alta gama.</li>
+                                    <li>Renovación cada 36 meses.</li>
+                                </ul>
+                            </div>
+                        </div>
+                         
+                        <div class="clear-both"></div>
+                        
+                        <div class="grupo">
+                            <div class="titular altura-fija-110">Y con todas las <strong>líneas juntas</strong> en la misma red.</div>
+                            <div class="desarrollo altura-fija-110 ancho-fijo-240">
+                                <ul>
+                                    <li>Red privada única de voz para todas las sedes.</li>
+                                    <li>Todas las capacidades de gestión de llamadas: desvíos, atención en grupos…</li>
+									<li>Comunicaciones unificadas: servicio de número único, Mensajería instantánea y aviso de presencia.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="clear-both"></div>
+                    
+                </div>
+                
+                <div>
+                	<form>
+						<div class="tituloAnadir">
+							Tiene <span class="num_empleados"></span> empleados.
+						</div>
+						<div class="explicacionAnadir">
+							<label for="puestosFijos">Le recomendamos el siguiente número de puestos fijos.</label>
+							<input type="text" id="puestosFijos" class="soloNumeros" value="0" /> <span>*</span>
+						</div>
+						 <div class="explicacionLeyenda">
+							* Si desea otra cantidad, puede modificar esta casilla.  
+						</div>
+                    </form>
+                </div>
+                
+                <div class="cuadroExtras">
+                	<div class="tituloExtras">Personalice su Puesto Fijo:</div>
+                    <div class="elementosExtras">
+                    	<div class="explicacionSubproducto">Puede sustituir sus terminales del paquete básico por los siguientes modelos de más prestaciones. Indíquenos cuántos quiere:</div>
+                        <div class="subproducto">
+                        	<label for="openstage40">- OpenStage 40</label>
+                        	<input type="text" id="openstage40"  name="openstage40" class="soloNumeros" value="0" />
+                        </div>                        
+                        <div class="subproducto">
+                        	<label for="openstage60">- OpenStage 60</label>
+                        	<input type="text" id="openstage60"  name="openstage60" class="soloNumeros" value="0" />
+                        </div>
+                        <div class="subproducto">
+                        	<label for="baseestandar">- Base estándar</label>
+                        	<input type="text" id="baseestandar"  name="baseestandar" class="soloNumeros" value="0" />
+                        </div>
+                        <div class="subproducto">
+                        	<label for="industrial">- Industrial</label>
+                        	<input type="text" id="industrial"  name="industrial" class="soloNumeros" value="0" />
+                        </div>
+                        <div class="subproducto">
+                        	<label for="antiexplosion">- Antiexplosión</label>
+                        	<input type="text" id="antiexplosion"  name="antiexplosion" class="soloNumeros" value="0" />
+                        </div>
+                        <div class="clear-both"></div>                        
+                    </div>
+                </div>
+                
+                <div class="cuadroExtras">
+                	<div class="tituloExtras">Complete su Puesto Fijo:</div>
+                    <div class="elementosExtras">
+                    	<div class="explicacionSubproducto">Añada si lo desea a su Puesto Fijo las <strong>Comunicaciones Unificadas</strong>, con las que dispondrá de un conjunto de herramientas destinadas a mejorar el trabajo colaborativo. Incluye:
+                        	<ul>
+                            	<li>Número y buzón de voz único para fijo y móvil</li>
+      							<li>Agenda unificada</li>
+                                <li>Visualización de presencia del resto de usuarios</li>
+      							<li>Mensajería instantánea</li>
+                            </ul>
+                        </div>
+                    	<div class="elementoExtra">
+                        	<input type="checkbox" id="comunicacionesUnificadas"  name="comunicacionesUnificadas" />
+                        	<label for="comunicacionesUnificadas">Comunicaciones Unificadas</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="botonesAnadiryContinuar">           	
+                    <a href="#addandgo" id="addand3"><img src="images/bt_anadirycontinuar.png" alt="Añadir y continuar" align="right" /></a>
+                    <a href="#add" id="add3"><img src="images/bt_anadir.png" alt="Añadir" align="right" /></a>
+                    <br />
+                    <span class="leyendaBotones">Para terminar, pulse en ‘Solicitar ahora’ dentro de "Su configuración". Para hacer modificaciones, vaya al apartado correspondiente.</span>
+                </div>
+            
+            </div>
+            <!-- FIN PASO 3. P FIJO -->
+            
+            <!-- PASO 4. P MOVIL -->
+            <div id="contenidoPmovil" class="columnRight" style="display:none;">
+            
+            	<div class="tituloPasos">
+                	<div class="icon"><img src="images/ico-title_pmovil2.png" /></div>
+                    <div class="title"><h3>4. Puesto Móvil</h3></div>
+                    <div class="grafico"><img src="images/ico-title_empleados.jpg" /></div>
+                </div>
+                
+                <div class="subtituloPasos">
+                	<h4>¿Por qué debería tener <strong>Puestos Móviles</strong>?</h4>
+                </div>
+                
+                
+                <div class="explicacion">
+                	<div class="precios">
+                    	<div>
+                            <h4>Paquete Básico <img src="images/masinfo_azul-lbox.png" class="masInfoPB"/><img src="images/info-otras_tarifas.png" class="info-PB"  /></h4>
+                            <ul>
+                            	<li>Smartphone básico (Samsung Mini)</li>
+                                <li>Tarifa Dúo (500'+100Gb+SMS)</li>
+                                <li>Mantenimiento y Seguro</li>
+                            </ul>
+                        </div>
+                        <img src="images/separacion_precio.jpg" />
+                        <!--<img src="images/precio_puestomovil.jpg" /> -->    
+                    </div>
+                	
+                    <div class="grupos">
+                    
+                        <div class="grupo">
+                            <div class="titular altura-fija-30"><strong>Para estar conectado.</strong></div>
+                            <div class="desarrollo altura-fija-30 ancho-fijo-240">
+                                <ul>
+                                    <li>Tarifas planas voz/datos multidispositivo.</li>
+                                </ul>
+                            </div>
+                        </div>
+                         
+                        <div class="clear-both"></div>
+                        
+                        <div class="grupo">
+                            <div class="titular altura-fija-65">Con todos los <strong>equipos mantenidos y actualizados</strong>.</div>
+                            <div class="desarrollo altura-fija-65 ancho-fijo-240">
+                                <ul>
+                                    <li>Smartphones con seguro de robo y accidentes.</li>
+     								<li>Mantenimiento, recogida y sustitución.</li>
+                                    <li>Renovación cada 24 meses.</li>
+                                </ul>
+                            </div>
+                        </div>
+                         
+                        <div class="clear-both"></div>
+                        
+                        <div class="grupo">
+                            <div class="titular altura-fija-110">Y con todas las <strong>líneas juntas</strong> en la misma red.</div>
+                            <div class="desarrollo altura-fija-110 ancho-fijo-240">
+                                <ul>
+	                                <li>Red privada única de voz para todas las sedes.</li>
+									<li>Todas las capacidades de gestión de llamadas: desvíos, atención en grupos…</li>
+									<li>Comunicaciones unificadas: servicio de número fijo en el móvil, Mensajería instantánea y aviso de presencia.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="clear-both"></div>
+                    
+                </div>
+                
+                <div>
+                	<form>
+                	<div class="tituloAnadir">
+                    	Tiene <span class="num_empleados"></span> empleados.
+                    </div>
+                    <div class="explicacionAnadir">
+                    	<label for="puestosMoviles">Le recomendamos el siguiente número de puestos móviles.</label>
+                        <input type="text" id="puestosMoviles" class="soloNumeros" value="0" /> <span>*</span>
+                    </div>
+                     <div class="explicacionLeyenda">
+                    	* Si desea otra cantidad, puede modificar esta casilla.  
+                    </div>
+                    </form>
+                </div>
+                
+                <div class="cuadroExtras">
+                	<div class="tituloExtras">Personalice su Puesto Móvil:</div>
+                    <div class="elementosExtras">
+                    	<div class="explicacionSubproducto">Puede sustituir sus Smartphone del paquete básico por los siguientes modelos de más prestaciones. Indíquenos cuántos quiere:</div>
+                    	
+                        <div class="subproducto">
+                        	<label for="iphone5">- iPhone 5</label>
+                        	<input type="text" id="iphone5" class="soloNumeros" name="iphone5" value="0" />
+                        </div>
+                        
+                        <div class="subproducto">
+                        	<label for="samsungGSIII">- Samsung Galaxy SIII</label>
+                        	<input type="text" id="samsungGSIII" class="soloNumeros" name="samsungGSIII" value="0" />
+                        </div>
+                        <div class="subproducto">
+                        	<label for="nokia610">- Nokia 610</label>
+                        	<input type="text" id="nokia610" class="soloNumeros" name="nokia610" value="0" />
+                        </div>
+                        <div class="subproducto">
+                        	<label for="samsungGAceII">- Samsung Galaxy Ace II</label>
+                        	<input type="text" id="samsungGAceII" class="soloNumeros" name="samsungGAceII" value="0" />
+                        </div>
+                        <div class="subproducto">
+                        	<label for="blackberry9320">- Blackberry 9320</label>
+                        	<input type="text" id="blackberry9320" class="soloNumeros" name="blackberry9320" value="0" />
+                        </div>
+                        <div class="subproducto">
+                        	<label for="sonyXperiaU">- Sony Xperia U</label>
+                        	<input type="text" id="sonyXperiaU" class="soloNumeros" name="sonyXperiaU" value="0" />
+                        </div>
+                        <div class="subproducto">
+                        	<label for="samsungGalaxyIImini">- Samsung Galaxy II mini</label>
+                        	<input type="text" id="samsungGalaxyIImini" class="soloNumeros" name="samsungGalaxyIImini" value="0" />
+                        </div>
+                        
+                        <div class="clear-both"></div>
+                        
+                    </div>
+                </div>
+                
+                <div class="cuadroExtras">
+                	<div class="tituloExtras">Complete su Puesto Móvil:</div>
+                    <div class="elementosExtras">
+                    	<div class="explicacionSubproducto">Añada si lo desea a su Puesto Móvil las <strong>Comunicaciones Unificadas</strong>, con las que dispondrá de un conjunto de herramientas destinadas a mejorar el trabajo colaborativo. Incluye:
+                        <ul>
+                            	<li>Número y buzón de voz único para fijo y móvil</li>
+      							<li>Agenda unificada</li>
+                                <li>Visualización de presencia del resto de usuarios</li>
+      							<li>Mensajería instantánea</li>
+                            </ul>
+                        </div>
+                    	<div class="elementoExtra">
+                        	<input type="checkbox" id="comunicacionesUnificadasMovil"  name="comunicacionesUnificadasMovil" />
+                        	<label for="comunicacionesUnificadasMovil">Comunicaciones Unificadas con fijo en el móvil</label>
+                        </div>
+                    </div>
+                </div>
+                
+                 <div class="botonesAnadiryContinuar">           	
+                    <a href="#addandgo" id="addand4"><img src="images/bt_anadirycontinuar.png" alt="Añadir y continuar" align="right" /></a>
+                    <a href="#add" id="add4"><img src="images/bt_anadir.png" alt="Añadir" align="right" /></a>
+                    <br />
+                    <span class="leyendaBotones">Para terminar, pulse en ‘Solicitar ahora’ dentro de "Su configuración". Para hacer modificaciones, vaya al apartado correspondiente.</span>
+                </div>
+            
+            
+            </div>
+            <!-- FIN PASO 4. P MOVIL -->
+            
+            <!-- PASO 5. P INFORMATICO -->
+            <div id="contenidoPinformatico" class="columnRight" style="display:none;">
+            
+            	<div class="tituloPasos">
+                	<div class="icon"><img src="images/ico-title_pinformatico2.png" /></div>
+                    <div class="title"><h3>5. Puesto Informático</h3></div>
+                    <div class="grafico"><img src="images/ico-title_empleados.jpg" /></div>
+                </div>
+                
+                <div class="subtituloPasos">
+                	<h4>¿Por qué debería tener <strong>Puestos Informáticos</strong>?</h4>
+                </div>
+                
+                
+                <div class="explicacion">
+                	<div class="precios">
+                    	<div>
+                            <h4>Paquete Básico</h4>
+                            <ul>
+                                <li>PC básico (sobremesa HP)</li>
+                                <li>Mantenimiento</li>
+                            </ul>
+                        </div>
+                        <img src="images/separacion_precio.jpg" />
+                        <!--<img src="images/precio_puestoinformatico.jpg" /> -->    
+                    </div>
+                	
+                    <div class="grupos">
+                    
+                        <div class="grupo">
+                            <div class="titular altura-fija-60">Para disponer de un <strong>equipamiento informático</strong> profesional sin necesidad de inversiones.</div>
+                            <div class="desarrollo altura-fija-60 ancho-fijo-240">
+                                <ul>
+                                    <li>Pc estándar</li>
+                                    <li>Portátil y ultrabook</li>
+                                    <li>Tablet</li>
+                                </ul>
+                            </div>
+                        </div>
+                         
+                        <div class="clear-both"></div>
+                        
+                        <div class="grupo">
+                            <div class="titular altura-fija-100">Con mucho más que un <strong>servicio de mantenimiento</strong>.</div>
+                            <div class="desarrollo altura-fija-100 ancho-fijo-240">
+                                <ul>
+                                    <li>Resolución de incidencias 24h  y equipo de sustitución.</li>
+     								<li>Soporte de uso del equipo y sus aplicaciones.</li>
+                                    <li>Optimización, configuración y rendimiento de su equipo.</li>
+                                </ul>
+                            </div>
+                        </div>
+                         
+                        <div class="clear-both"></div>
+                    
+                    </div>
+                    
+                    <div class="clear-both"></div>
+                    
+                </div>
+                
+                <div>
+                	<form>
+                	<div class="tituloAnadir">
+                    	Tiene <span class="num_empleados"></span> empleados.
+                    </div>
+                    <div class="explicacionAnadir">
+                    	<label for="puestosInformaticos">Le recomendamos el siguiente número de puestos informáticos.</label>
+                        <input type="text" id="puestosInformaticos" class="soloNumeros" value="0" /> <span>*</span>
+                    </div>
+                     <div class="explicacionLeyenda">
+                    	* Si desea otra cantidad, puede modificar esta casilla.  
+                    </div>
+                    </form>
+                </div>
+                
+                <div class="cuadroExtras">
+                	<div class="tituloExtras">Personalice su Puesto Informático:</div>
+                    <div class="elementosExtras">
+                    	<div class="explicacionSubproducto">Puede sustituir sus terminales básicos por los siguientes modelos. Indíquenos cuántos quiere:</div>
+                    	 <div class="subproducto">
+                        	<label for="pcportatil">- PC portátil <!--</strong> ¿Cuántos desea?--></label>
+                        	<input type="text" id="pcportatil" class="soloNumeros" name="pcportatil" value="0" />
+                        </div>
+                    	 <div class="subproducto">
+                        	<label for="ultrabook">- Ultrabook <!--</strong> ¿Cuántos desea?--></label>
+                        	<input type="text" id="ultrabook" class="soloNumeros" name="ultrabook" value="0" />
+                        </div>
+                    	 <div class="subproducto">
+                        	<label for="iPad">- iPad <!--</strong> ¿Cuántos desea?--></label>
+                        	<input type="text" id="iPad" class="soloNumeros" name="iPad" value="0" />
+                        </div>
+<!--                        <div class="clear-both"></div>-->
+                        <div class="subproducto">
+                        	<label for="Samsung">- Samsung Tablet <!--</strong> ¿Cuántos desea?--></label>
+                        	<input type="text" id="samsung" class="soloNumeros" name="samsung" value="0" />
+                        </div>
+                        <div class="clear-both"></div>
+                    </div>
+                </div>
+                
+                 <div class="botonesAnadiryContinuar">           	
+                    <a href="#addandgo" id="addand5"><img src="images/bt_anadirycontinuar.png" alt="Añadir y continuar" align="right" /></a>
+                    <a href="#add" id="add5"><img src="images/bt_anadir.png" alt="Añadir" align="right" /></a>
+                    <br />
+                    <span class="leyendaBotones">Para terminar, pulse en ‘Solicitar ahora’ dentro de "Su configuración". Para hacer modificaciones, vaya al apartado correspondiente.</span>
+                </div>
+            
+            </div>
+            <!-- FIN PASO 5. P INFORMATICO -->
+            
+            <!-- PASO 6. SERVICIOS ADICIONALES -->
+            <div id="contenidoServiciosA" class="columnRight" style="display:none;">
+            	
+                <div class="tituloPasos">	
+                    <div class="title"><h3>+ Servicios adicionales</h3></div>
+                    <div class="grafico"><img src="images/ico-title_adicionales.jpg" /></div>
+                </div>
+                
+                
+                <div class="serviciosAdicionales serviciosAdicionales_margen ">
+                	<h4>Para su Oficina</h4>
+                    <div class="descripcionServicios">
+                    	<div class="titulo"><span>Presencia en Internet</span></div>
+                        <div class="descripcionesServicios altura-fija-280">
+                        	<p>Todo lo que necesita para situar a su empresa en Internet y atraer más clientes.</p>
+							<p><strong>Elija qué Servicios de <a href="http://www.movistar.es/presenciainternet" target="_blank">Presencia en Internet</a> desea:</strong></p>
+                            <ul>
+                            	<li>
+                                	<div><input type="checkbox" id="hacemostuweb"  name="Hacemos tu web" /></div>
+                                    <label for="Hacemos tu web"><strong>Hacemos Tu Web</strong></label><br />Diseñamos y alojamos su página web
+                                </li>
+                                <li>
+                                	<div><input type="checkbox" id="hacemostutienda"  name="Hacemos tu web" /></div>
+                                    <label for="Hacemos tu tienda"><strong>Hacemos Tu Tienda</strong></label><br />Diseñamos y alojamos su tienda online
+                                </li>
+                                <li>
+                                	<div><input type="checkbox" id="tedestacoeninternet"  name="Te destaco en Internet" /></div>
+                                    <label for="Te destaco en Internet"><strong>Te destaco en Internet</strong></label><br />Posicionamos su web en la red
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="serviciosAdicionales" style="display:block;">
+                	<h4>Para sus Empleados</h4>
+                    <div class="descripcionServicios">
+                    	<div class="titulo"><span>Servicios de Colaboración</span></div>
+                        <div class="descripcionesServicios altura-fija-280">
+                        	<p>Un grupo de servicios que ayudará al desempeño diario de sus empleados.</p>
+							<p><strong>Elija qué Servicios de Colaboración desea:</strong></p>
+                            <ul>
+                            	<li>
+                                	<div><input type="checkbox" id="discovirtual"  name="discovirtual" /></div>
+                                    <label for="discovirtual"><strong><a href="https://www.aplicateca.es/ProductDescriptionFull.aspx?prodid=08282947-965c-4cb4-ade4-376f2a5c75fe" target="_blank">Disco Virtual en Red</a></strong></label><br />20 Gb almacenamiento
+                                </li>
+                                <li>
+                                	<div><input type="checkbox" id="Intranet"  name="Intranet" /></div>
+                                    <label for="Intranet"><strong><a href="https://www.movistar.es/empresas/movil/servicios/ficha/empresas-intranet-negocios" target="_blank">Intranet Negocios</a></strong></label><br />Acceso remoto a su red 24x7
+                                </li>
+                                <li>
+                                	<div><input type="checkbox" id="office365"  name="office365" /></div>
+                                    <label for="office365"><strong><a href="https://www.movistar.es/empresas/banda-ancha/servicios/ficha/empresas-microsoft-office-365" target="_blank">Office 365</a></strong></label><br />Uso remoto de Office
+                                </li>
+                                <li>
+                                	<div><input type="checkbox" id="Antivirus"  name="Antivirus" /></div>
+                              <label for="Antivirus"><strong><a href="/empresas/banda-ancha/servicios/ficha/empresas-pc-seguro" target="_blank">Pc Seguro</a></strong></label><br />Sus equipos totalmente protegidos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                
+
+                
+                <div class="clear-both"></div>
+                <br /><br />
+
+                <div class="botonesAnadiryContinuar">  
+                	<a id="btSolicitarFinal" href="#solicitar"><img src="images/bt_solicitar_sa.png" alt="Solicitar" align="right" /></a>         	
+                    <a href="#add" id="add6"><img src="images/bt_anadir.png" alt="Añadir" align="right" /></a>
+                </div>
+                
+            </div>
+            <!-- FIN PASO 6. SERVICIOS ADICIONALES -->
+            
+        </div>
+        <!-- FIN. SECCION ASISTENTE -->
+        
+        <div id="recomendador" class="section">
+
+            <div class="titleContent">
+            	<h1>Condiciones Legales</h1>
+            </div>
+            
+            <div class="clear-both"></div>  
+            
+            <div class="subtitleContent">
+            	<h3>Seleccione el enlace de las condiciones legales que le interese: </h3>
+            </div>
+            <div class="clear-both"></div>
+            
+            <!-- CONDICIONES LEGALES Y DESCARGAS -->
+            
+						<!-- CONDICIONES COLUMNA 2 -->
+            <div class="condiciones_legales_col_1">
+            	<div class="bloque">
+              	<div class="bloque_titulo">
+	                <h1><span>01 </span>Conectividad Empresas</h1>
+                </div>
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/CondicionesparticularesConectividadEmpresa.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/CondicionesparticularesConectividadEmpresa.pdf" target="_blank">
+                  Contrato Conectividad Empresas
+                  </a></div>
+                </div>
+              </div>
+            
+            	<div class="bloque">
+              	<div class="bloque_titulo">
+	                <h1><span>02 </span>Puesto Fijo</h1>
+                </div>
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/CondicionesContratoPuestoFijo.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/CondicionesContratoPuestoFijo.pdf" target="_blank">
+                  Contrato Puesto Fijo
+                  </a></div>
+                </div>
+              </div>
+
+            	<div class="bloque">
+              	<div class="bloque_titulo">
+	                <h1><span>03 </span>Puesto Móvil</h1>
+                </div>
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/CondicionesContratoPuestoMovil.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/CondicionesContratoPuestoMovil.pdf" target="_blank">
+                  Condiciones Generales Mantenimiento de Terminales
+                  </a></div>
+                </div>
+              </div>
+            </div>
+            
+						<!-- CONDICIONES COLUMNA 2 -->
+          <div class="condiciones_legales_col_2">
+           	<div class="bloque">
+              	<div class="bloque_titulo">
+	                <h1><span>04 </span>Puesto Informático</h1>
+                </div>
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/CondgeneralesMantPCparaFusion.pdf"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/CondgeneralesMantPCparaFusion.pdf" target="_blank">
+                  Condiciones generales Mantenimiento PC
+                  </a></div>
+                </div>
+              </div>
+
+            	<div class="bloque">
+              	<div class="bloque_titulo">
+	                <h1><span>05 </span>Servicios Adicionales</h1>
+                </div>
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> 
+                  	<a href="/estaticos/empresas/fusion/pdfs/CondicionesGeneralesAntivirusFirewallMFEV1.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto">
+	                  <a href="/estaticos/empresas/fusion/pdfs/CondicionesGeneralesAntivirusFirewallMFEV1.pdf" target="_blank">Condiciones Generales Antivirus + Firewall</a>
+                  </div>
+                </div>
+
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> 
+                  	<a href="/estaticos/empresas/fusion/pdfs/CondicionesGeneralesPresenciaenInternetFINAL.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto">
+	                  <a href="/estaticos/empresas/fusion/pdfs/CondicionesGeneralesPresenciaenInternetFINAL.pdf" target="_blank">Condiciones Generales Presencia en Internet</a>
+                  </div>
+                </div>
+                
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> 
+                  	<a href="/estaticos/empresas/fusion/pdfs/contratodiscovirtualredV2.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto">
+	                  <a href="/estaticos/empresas/fusion/pdfs/contratodiscovirtualredV2.pdf" target="_blank">Contrato Disco Virtual en Red</a>
+                  </div>
+                </div>
+                
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> 
+                  	<a href="/estaticos/empresas/fusion/pdfs/CondicionesparticularesIntranetNegocios.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto">
+	                  <a href="/estaticos/empresas/fusion/pdfs/CondicionesparticularesIntranetNegocios.pdf" target="_blank">Condiciones particulares Intranet	Negocios</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+            <div class=" clear-both"></div>
+           
+           
+            
+            <div class="titleContent">
+            	<h1>Manuales y Software de descarga</h1>
+            </div>
+            
+            <div class="clear-both"></div>  
+            
+            <div class="subtitleContent">
+            	<h3>Seleccione el enlace del software
+           	  que le interese: </h3>
+            </div>
+            <div class="clear-both"></div>
+            
+            <div class="condiciones_legales_col_1">
+            	<div class="bloque">
+              	<div class="bloque_titulo">
+	                <h1><span>01 </span>Puesto Fijo</h1>
+                </div>
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/SoftwareDescarga/ODCPEV60R0.7.8.exe" target="_blank"><img src="images/ico_software.png" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/SoftwareDescarga/ODCPEV60R0.7.8.exe" target="_blank">
+                  Softphone para Puesto Fijo
+                  </a></div>
+                </div>
+					
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/SoftwareDescarga/Softphone/ManualInstalacionSoftphone.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/SoftwareDescarga/Softphone/ManualInstalacionSoftphone.pdf" target="_blank">
+			      Manual de instalacion del Softphone
+				  </a></div>
+                </div>       
+					
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/SoftwareDescarga/Softphone/ManualUsuarioSoftphone.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/SoftwareDescarga/Softphone/ManualUsuarioSoftphone.pdf" target="_blank">
+				  Manual de usuario Softphone
+				  </a></div>
+                </div>   
+					
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/ManualUsuarioComunicacionesUnificadasPC.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/ManualUsuarioComunicacionesUnificadasPC.pdf" target="_blank">
+				  Manual de usuario Comunicaciones Unificadas en PC
+				  </a></div>
+                </div>   
+				
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/ManualInstalacionComunicacionesUnificadasMovil.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/ManualInstalacionComunicacionesUnificadasMovil.pdf" target="_blank">
+                  Manual de instalación aplicación Comunicaciones Unificadas en el móvil
+                  </a></div>
+                </div>
+                
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/ManualUsuarioComunicacionesUnificadasMovilesAndroid.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/ManualUsuarioComunicacionesUnificadasMovilesAndroid.pdf" target="_blank">
+                  Manual de Usuario Comunicaciones Unificadas en móviles Android
+                  </a></div>
+                </div>
+					
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/ManualUsuarioComunicacionesUnificadasMovilesApple.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/ManualUsuarioComunicacionesUnificadasMovilesApple.pdf" target="_blank">
+                  Manual de Usuario Comunicaciones Unificadas en moviles Apple
+                  </a></div>
+                </div>
+					
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/ManualUsuarioOpenStage15SIP.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/ManualUsuarioOpenStage15SIP.pdf" target="_blank">
+                  Manual de Usuario OpenStage 15 SIP
+                  </a></div>
+                </div>
+                
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/ManualUsuarioOpenStage40SIP.pdf"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/ManualUsuarioOpenStage40SIP.pdf" target="_blank">
+                  Manual de Usuario OpenStage 40 SIP
+                  </a></div>
+                </div>
+                
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/ManualUsuarioOpenStage60SIP.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/ManualUsuarioOpenStage60SIP.pdf" target="_blank">
+                  Manual de Usuario OpenStage 60 SIP
+                  </a></div>
+                </div>
+                
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/ManualusuarioterminalDECTbasicoOpenStageSL4professional.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/ManualusuarioterminalDECTbasicoOpenStageSL4professional.pdf" target="_blank">
+                 Manual de usuario terminal DECT basico OpenStage SL4 professional
+                  </a></div>
+                </div>
+                
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/ManualusuarioterminalesDECTindustrialantiexplosion.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/ManualusuarioterminalesDECTindustrialantiexplosion.pdf" target="_blank">
+                  Manual de usuario terminales DECT industrial y antiexplosi&oacute;n
+                  </a></div>
+                </div>
+					
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/GuiarapidaPCseguro.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/GuiarapidaPCseguro.pdf" target="_blank">
+				  Guía Rápida Pc Seguro
+			      </a></div>
+                </div>
+					
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/Guiarapidapuestosfijos.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/Guiarapidapuestosfijos.pdf" target="_blank">
+				  Guía Rápida Puestos Fijos 
+			      </a></div>
+                </div>
+                
+              </div>
+			</div>
+              <!-- Segunda columna parte inferior -->
+      
+      
+      <div>&nbsp;</div>
+			<div class="condiciones_legales_col_2">
+           	<div class="bloque">
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/GuiaRapidaSoftphone.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  	</div>
+					 <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/GuiaRapidaSoftphone.pdf" target="_blank">
+					 Guía Rápida Softphone 
+					 </a></div>
+                </div>
+				
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/GuiarapidaPresenciaenInternet.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  	</div>
+					 <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/GuiarapidaPresenciaenInternet.pdf" target="_blank">
+					 Guía Rápida Presencia en Internet 
+					 </a></div>
+                </div>
+				
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/GuiarapidaIntranetNegocios.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+					  </div>
+					  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/GuiarapidaIntranetNegocios.pdf" target="_blank">
+					  Guía Rápida Intranet Negocios 
+					  </a></div>
+                </div>
+				
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/GuiaRapidaComunicacionesUnificadasPC.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  	</div>
+                  	<div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/GuiaRapidaComunicacionesUnificadasPC.pdf" target="_blank">
+				  	Guía Rápida Comunicaciones Unificadas en PC
+				  	</a></div>
+                </div>
+				
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/GuiarapidaDVR.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  	</div>
+                  	<div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/GuiarapidaDVR.pdf" target="_blank">
+				  	Guía Rápida DVR 
+			      	</a></div>
+                </div>
+				
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/GuiaRapidaComunicacionesUnificadasMovilesAndroid.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  	</div>
+                  	<div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/GuiaRapidaComunicacionesUnificadasMovilesAndroid.pdf" target="_blank">
+                  	Guía Rápida Comunicaciones Unificadas en móviles Android
+                  	</a></div>
+                </div>
+				
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/GuiaRapidaComunicacionesUnificadasMovilesApple.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  	</div>
+                  	<div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/GuiaRapidaComunicacionesUnificadasMovilesApple.pdf" target="_blank">
+                  	Guía Rápida Comunicaciones Unificadas en móviles Apple
+                  	</a></div>
+                </div>
+			    
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/GuiaRapidaOpenStage15.PDF" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+                  </div>
+                  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/GuiaRapidaOpenStage15.PDF" target="_blank">
+                  Guía Rápida OpenStage 15
+                  </a></div>
+                </div>
+                
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/GuiaRapidaOpenStage40.PDF" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+					  </div>
+					  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/GuiaRapidaOpenStage40.PDF" target="_blank">
+					  Guía Rápida OpenStage 40
+					  </a></div>
+                </div>
+                
+                <div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/GuiaRapidaopenstage60.PDF" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+					  </div>
+					  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/GuiaRapidaopenstage60.PDF" target="_blank">
+					  Guía Rápida Openstage 60
+					  </a></div>
+                </div>
+				
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/GuiarapidaOffice365.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+					 </div>
+					 <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/GuiarapidaOffice365.pdf" target="_blank">
+					 Guía Rápida Office365 
+					 </a></div>
+                </div>
+				
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/Guiarapidaoperadoraautomatica.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+					  </div>
+					  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/Guiarapidaoperadoraautomatica.pdf" target="_blank">
+					  Guía Rápida Operadora Autom&aacute;tica 
+					  </a></div>
+                </div>
+				
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/Guiarapidapuestosinformaticos.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+					  </div>
+					  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/Guiarapidapuestosinformaticos.pdf" target="_blank">
+					  Guía Rápida Puestos Inform&aacute;ticos 
+					  </a></div>
+                </div>
+				
+				<div class="bloque_detalle">
+                	<div class="bloque_detalle_pdf"> <a href="/estaticos/empresas/fusion/pdfs/Guiarapidapuestosmoviles.pdf" target="_blank"><img src="images/pdf.jpg" width="24" height="24" border="0" /></a>
+					  </div>
+					  <div class="bloque_detalle_texto"><a href="/estaticos/empresas/fusion/pdfs/Guiarapidapuestosmoviles.pdf" target="_blank">
+					  Guía Rápida M&oacute;viles 
+					  </a></div>
+                </div>
+				
+			</div><!--Fin de 'bloque'-->
+      </div>
+	</div>
+
+            <!-- FIN CONDICIONES LEGALES Y DESCARGAS -->
+        
+        
+     </div>
+        
+    
+    </div>
+    
+<!------------------- COLORBOX ----------------------------------->
+
+<div class="contenedorLightbox" id="lightboxComunicacionesFijo">
+	<a href="#cerrar" class="volverFormulario"><img src="images/lightbox-cerrar.png" alt="Cerrar" /></a>
+	<p>Si desea añadir la opción de "Comunicaciones unificadas", por lo menos debe incluir también 1 Puesto Fijo. Por favor, revise su selección. </p>
+    <div class="botones">           	
+           <a href="#volver" class="volver"><img src="images/bt_volver.png" alt="Volver" align="right" /></a>
+    </div>
+</div>
+
+<div class="contenedorLightbox" id="lightboxComunicacionesMovil">
+	<a href="#cerrar" class="volverFormulario"><img src="images/lightbox-cerrar.png" alt="Cerrar" /></a>
+	<p>Si desea añadir la opción de "Comunicaciones unificadas", por lo menos debe incluir también 1 Puesto Móvil. Por favor, revise su selección. </p>
+    <div class="botones">           	
+           <a href="#volver" class="volver"><img src="images/bt_volver.png" alt="Volver" align="right" /></a>
+    </div>
+</div>
+
+<div class="contenedorLightbox" id="lightboxPuestoFijo">
+	<a href="#cerrar" class="volverFormulario"><img src="images/lightbox-cerrar.png" alt="Cerrar" /></a>
+    <p>Ha superado el número de terminales que puede seleccionar.</p>
+	<p>El número total de terminales debe ser igual al número de Puestos Fijos que haya elegido. Por favor, ajuste su selección. </p>
+    <div class="botones">           	
+           <a href="#volver" class="volver"><img src="images/bt_volver.png" alt="Volver" align="right" /></a>
+    </div>
+</div>
+
+<div class="contenedorLightbox" id="lightboxPuestoInformatico">
+	<a href="#cerrar" class="volverFormulario"><img src="images/lightbox-cerrar.png" alt="Cerrar" /></a>
+    <p>Ha superado el número de terminales que puede seleccionar.</p>
+	<p>El número total de terminales debe ser igual al número de Puestos Informáticos que haya elegido. Por favor, ajuste su selección. </p>
+    <div class="botones">           	
+           <a href="#volver" class="volver"><img src="images/bt_volver.png" alt="Volver" align="right" /></a>
+    </div>
+</div>
+
+<div class="contenedorLightbox" id="lightboxPuestoMovil">
+	<a href="#cerrar" class="volverFormulario"><img src="images/lightbox-cerrar.png" alt="Cerrar" /></a>
+    <p>Ha superado el número de Smartphones que puede seleccionar.</p>
+	<p>El número total de Smartphones debe ser igual al número de Puestos Móviles que haya elegido. Por favor, ajuste su selección. </p>
+    <div class="botones">           	
+           <a href="#volver" class="volver"><img src="images/bt_volver.png" alt="Volver" align="right" /></a>
+    </div>
+</div>
+
+<div class="contenedorLightbox" id="lightboxConectividad">
+	<a href="#cerrar" class="volverFormulario"><img src="images/lightbox-cerrar.png" alt="Cerrar" /></a>
+	<p>Para poder continuar, debe indicar su número de oficinas y de empleados.</p>
+	<p>Rellene los campos y haga clic en "Añadir" o "Añadir y continuar". </p>
+    <div class="botones">           	
+           <a href="#volver" class="volver"><img src="images/bt_volver.png" alt="Volver" align="right" /></a>
+    </div>
+</div>
+
+<div class="contenedorLightbox" id="lightboxGenerico">
+	<a href="#cerrar" class="volverFormulario"><img src="images/lightbox-cerrar.png" alt="Cerrar" /></a>
+	<p>Los cambios no se han añadido a Su configuración.</p>
+	<p>Para añadirlos, haga clic en "Añadir" o "Añadir y continuar".</p>
+    <div class="botones">           	   
+           <a href="#seguir" id="continuar"><img src="images/bt_continuar.png" alt="Continuar al siguiente paso" /></a>
+           <a href="#volver" class="volver"><img src="images/bt_volver.png" alt="Volver para añadir mi selección" /></a>
+    </div>
+</div>
+
+<div class="contenedorLightbox" id="lightboxSolicitarSinAnadir">
+	<a href="#cerrar" class="volverFormulario"><img src="images/lightbox-cerrar.png" alt="Cerrar" /></a>
+	<p>Hay productos seleccionados que NO han sido añadidos a “Su configuración”  ¿Quiere añadirlos ahora?</p>
+	<p>Para añadirlos, haga clic en "Si" o en "No" para continuar sin añadir.</p>
+    <div class="botones">
+    	   <a href="#noAnadir" id="btNoAnadir"><img src="images/bt_no.png" alt="No" /></a>          	   
+           <a href="#volver" class="volver"><img src="images/bt_si.png" alt="Continuar al siguiente paso" /></a>         
+    </div>
+</div>
+
+<!-------------  FIN. COLORBOX ----------------------------->
+
+
+<!-------------  TRACKING ---------------------------------->
+
+	<script type="text/javascript">
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-31107895-13']);
+	  _gaq.push(['_trackPageview', '/inicio/']);
+	
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+	
+	<!-- js analiticaWeb START [es_ES] (2013-01-20 18:00:00) -->
+	<script type="text/javascript" src="js/s_code.js"></script>
+	<script type="text/javascript"> 
+		/* <![CDATA[ */
+		var s_code=s.t();if(s_code)document.write(s_code);
+		if(typeof(variableSendFormEvent1 ) != 'undefined' && variableSendFormEvent1 != null && typeof(variableSendFormEvent2 ) != 'undefined' && variableSendFormEvent2 != null && typeof(variableSendFormEvent3 ) != 'undefined' && variableSendFormEvent3 != null && typeof(variableSendFormEvent4 ) != 'undefined' && variableSendFormEvent4 != null) { s.sendFormEvent(variableSendFormEvent1, variableSendFormEvent2, variableSendFormEvent3, variableSendFormEvent4); }
+		if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+		/* ]]> */
+	</script> 
+	<noscript><a href="http://www.omniture.com" title="Web Analytics">
+		<img src="http://telefonicaes.122.2o7.net/b/ss/telefonicaescol10produccion/1/H.24.2--NS/0" class="hidden" alt="Web Analytics"/>
+	</a></noscript><!--/DO NOT REMOVE/-->
+	<!-- js analiticaWeb END: 0ms -->
+
+
+<!-------------  FIN. TRACKING ---------------------------------->
+    
+</body>
+</html>
